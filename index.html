@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.68.3" />
+    <meta charset="utf-8">
+<title>reveal-hugo</title>
+<meta name="description" content="A Hugo theme for creating Reveal.js presentations">
+<meta name="author" content="Josh Dzielak">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/localhost/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/localhost/reveal-js/css/reveal.css"><link rel="stylesheet" href="/localhost/reveal-hugo/themes/robot-lung.css" id="theme"><link rel="stylesheet" href="/localhost/highlight-js/color-brewer.min.css">
+    
+
+<style>
+ 
+.reveal section pre {
+  box-shadow: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid lightgrey;
+}
+.reveal section pre:hover {
+  border: 1px solid grey;
+  transition: border 0.3s ease;
+}
+.reveal section pre > code {
+  padding: 10px;
+}
+.reveal table {
+  font-size: 0.65em;
+}
+ 
+.reveal section.side-by-side h1 {
+  position: absolute;
+}
+.reveal section.side-by-side h1:first-of-type {
+  left: 25%;
+}
+.reveal section.side-by-side h1:nth-of-type(2) {
+  right: 25%;
+}
+.reveal section[data-background-image] a,
+.reveal section[data-background-image] p,
+.reveal section[data-background-image] h2 {
+  color: white;
+}
+.reveal section[data-background-image] a {
+  text-decoration: underline;
+}
+</style>
+
+  </head>
+  <body>
+    
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="heading">⚡</h1>
+<h1 id="eletricidade-básica">Eletricidade básica</h1>
+<p>🖥️ Organização e Manutenção de Computadores</p>
+<p><a href="https://jp-guimaraes.github.io/">🌐 João Paulo Guimarães</a></p>
+</section>
+
+  
+
+    <section><p>❓</p>
+<p>Conhecimentos necessários relacionados a eletricidade para entendimento de organização de computadores e para realização de manutenção básica em computadores?</p>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="conceitos-físicos">Conceitos físicos</h1>
+</section><section>
+<h1 id="enegia">Enegia</h1>
+<blockquote>
+<p>Energia não pode ser criada nem destruída: ela apenas se transforma de um tipo em outro</p>
+</blockquote>
+<p>Energia cinética, térmica, sonora, potencial</p>
+</section><section>
+<h1 id="energia-potencial">Energia potencial</h1>
+<ul>
+<li>
+<p>Potencial elástica</p>
+</li>
+<li>
+<p>Potencial gravitacional</p>
+</li>
+<li>
+<p>Potencial nuclear</p>
+</li>
+<li>
+<p><strong>Potencial elétrica</strong></p>
+</li>
+</ul>
+</section><section>
+<h1 id="tensão">Tensão</h1>
+<p>Tensão elétrica</p>
+<p>Diferença de potencial elétrico (DDP)</p>
+<p>Voltagem</p>
+</section><section>
+<!-- ![](https://conhecimentocientifico.r7.com/wp-content/uploads/2020/05/corrente-continua-o-que-e-definicao-caracteristicas-e-aplicacoes-1-1024x532.png) -->
+<p><img src="https://www.electronica-pt.com/images/onda-sinusoidal.png" alt=""></p>
+</section><section>
+<p>Tipo de tensão na tomada?</p>
+<p>Tipo de tensão no processador do computador?</p>
+</section><section>
+<h1 id="corrente-elétrica">Corrente elétrica</h1>
+<p>Fluxo ordenado de elétrons</p>
+</section><section>
+<p><img src="https://www.veichi.org/d/file/solutions/press-machine/20180301/cb6989ba8bed9db4bcfe3ef6eded3a57.png" alt=""></p>
+</section><section>
+<h1 id="carga">Carga</h1>
+<p>(Eletrical Load != Carga elétrica)</p>
+<p>É o contrário de uma fonte;</p>
+<p>Bateria, tomada: Fornecem energia.</p>
+<p>Carga -&gt; Consome energia</p>
+</section><section>
+<h1 id="tipos-de-cargas">Tipos de Cargas</h1>
+<ul>
+<li>
+<p>Resistivas: Ferro de passar roupa, chuveiro elétrico, lâmpadas incandecentes</p>
+</li>
+<li>
+<p>Indutivas: Motores, transformadores, bobinas</p>
+</li>
+<li>
+<p>Capacitivas: Equipamentos com capacitores</p>
+</li>
+<li>
+<p>Cargas combinadas</p>
+</li>
+</ul>
+</section><section>
+<p><strong>Resistência</strong>: Capacidade de um corpo (característica) de se opor a passagem de corrente elétrica</p>
+<p><a href="https://phet.colorado.edu/pt_BR/simulation/resistance-in-a-wire">Simulador</a></p>
+<iframe src="https://phet.colorado.edu/sims/html/resistance-in-a-wire/latest/resistance-in-a-wire_pt_BR.html" width="800" height="600" scrolling="no" allowfullscreen></iframe>
+</section><section>
+<p><strong>Lei de Ohm</strong>: Relação matemática entre tensão, corrente e resistência, V = R*I</p>
+<p><a href="https://phet.colorado.edu/pt_BR/">Simulador</a></p>
+<section class="no compute">
+<iframe src="https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_pt_BR.html" width="800" height="600" scrolling="no" allowfullscreen></iframe>
+</section>
+</section><section>
+<h1 id="potência">Potência</h1>
+<p>Quantidade de trabalho realizado em determinado intervalo de tempo</p>
+<p>O que significa um determinado equipamento ser mais potente do que outro?</p>
+</section><section>
+<h1 id="matematicamente">Matematicamente&hellip;</h1>
+<p>Medido em Watts (W)</p>
+<p>P = U*I</p>
+</section><section>
+<h1 id="exercício-1">Exercício 1</h1>
+<p>Sabendo que uma porta USB 2.0 convencional pode fornecer até 0.5A a uma tensão de 5V, calcule a potênica máxima de um equipamento que pode ser ligado a essa interface.</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="rede-elétrica">Rede elétrica</h1>
+</section><section>
+<h1 id="rio-grande-do-norte">Rio Grande do Norte</h1>
+<p>Tensão nas tomadas</p>
+<p>~ 220v</p>
+</section><section>
+<h1 id="padrão-de-entrada">Padrão de entrada</h1>
+<p><a href="https://servicos.cosern.com.br/comercial-industrial/Pages/Padr%C3%A3o%20de%20Entrada/o-que-e-padrao-de-entrada.aspx">Site da cosern</a></p>
+</section><section>
+<h1 id="padrão-da-tomada">Padrão da tomada</h1>
+<p><img src="https://www.saladaeletrica.com.br/saladaeletrica/wp-content/uploads/2017/08/2.png" alt=""></p>
+</section><section>
+<h1 id="comparativo-com-padrão-antigo">Comparativo com padrão antigo</h1>
+<p><img src="https://i137.photobucket.com/albums/q227/lafaller/Polarizaodetomadaseltricas-1.jpg" alt=""></p>
+<h1 id="bitola-do-fio">Bitola do fio</h1>
+<p><img src="https://i.pinimg.com/originals/25/22/2e/25222e889419d2a6df6289fdb7300b90.jpg" alt=""></p>
+</section><section>
+<h1 id="exercício-2">Exercício 2</h1>
+<p>Calcular a bitola do fio necessária para um Servidor cuja potência é de 2500W.</p>
+</section><section>
+<h1 id="exercício-3">Exercício 3</h1>
+<p>Estimar o custo em R$ para o servidor do exercício 2.</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="choque-elétrico">Choque elétrico</h1>
+<p>O que é?</p>
+</section><section>
+<h1 id="cuidados-com-choque-elétrico">Cuidados com choque elétrico</h1>
+<ul>
+<li>Formigamento</li>
+<li>Dor</li>
+<li>Contração involuntária</li>
+<li>Queimaduras</li>
+</ul>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="eletricidade-estática">Eletricidade estática</h1>
+<p>O que é?</p>
+<p>Cuidados relacionados a manipulação do hardware</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="exemplo">Exemplo</h1>
+</section><section>
+<h1 id="computador-não-está-ligando">Computador não está ligando?</h1>
+<p>O que fazer?</p>
+</section><section>
+<p>Por onde começar?</p>
+<h1 id="tomada-sem-energia">Tomada sem energia?</h1>
+<p>Multimetro, teste ou outro equipamento</p>
+<p>Computador ligou?</p>
+</section><section>
+<p>Disjuntor ligado?</p>
+<p>Conferir outras tomadas</p>
+</section><section>
+<h1 id="disjuntor-desarmou">Disjuntor desarmou?</h1>
+<p>Quadro de distribuição</p>
+<p><img src="https://br.habcdn.com/photos/project/big/quadro-de-distribuicao-de-circuitos-montado-pelo-lado-de-dentro-1731712.jpg" alt=""></p>
+</section><section>
+<h1 id="entendendo-o-problema">Entendendo o problema:</h1>
+<ul>
+<li>
+<p>Potência dos equipamentos (W)</p>
+</li>
+<li>
+<p>Cálculo da corrente (Ampere)</p>
+</li>
+<li>
+<p>Seleção da bitola do fio e disjuntor do circuito (mm)</p>
+</li>
+</ul>
+</section><section>
+<h1 id="conferirindo-dimensionamento">Conferirindo dimensionamento</h1>
+<p><img src="https://i.pinimg.com/originals/25/22/2e/25222e889419d2a6df6289fdb7300b90.jpg" alt=""></p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="problemas-da-rede-elétrica">Problemas da rede elétrica</h1>
+<p>Entendendo os problemas</p>
+</section><section>
+<h1 id="como-medir-a-qualidade-da-energia">Como medir a qualidade da energia?</h1>
+<ul>
+<li>Nível de tensão</li>
+<li>Oscilação de tensão</li>
+</ul>
+</section><section>
+<h1 id="tipos-de-anomalias">Tipos de anomalias</h1>
+<ol>
+<li>Queda de voltagem ou micro-corte</li>
+<li>Surto</li>
+<li>Ruídos</li>
+<li>Blackout</li>
+</ol>
+<p>O que caracteriza? Consequências ao computador?</p>
+</section><section>
+<h1 id="queda-de-tensão">Queda de tensão</h1>
+<p>(micro-corte, subtensão)</p>
+<p>O que caracteriza?</p>
+<p>Quem provoca?</p>
+<p>Quais os efeitos ao computador?</p>
+</section><section>
+<h1 id="blackout">Blackout</h1>
+<p>O que caracteriza?</p>
+<p>Quem provoca?</p>
+<p>Quais os efeitos ao computador?</p>
+</section><section>
+<h1 id="surto">Surto</h1>
+<p><img src="http://blog.minhacasasolar.com.br/wp-content/uploads/2019/01/surto-eletrico-energia-solar-1024x558.png" alt=""></p>
+<p>O que caracteriza?</p>
+<p>Quem provoca?</p>
+<p>Quais os efeitos ao computador?</p>
+</section><section>
+<h1 id="ruídos">Ruídos</h1>
+<p>O que caracteriza?</p>
+<p>Quem provoca?</p>
+<p>Quais os efeitos ao computador?</p>
+</section><section>
+<h1 id="classifique">Classifique!</h1>
+</section><section>
+<p><img src="https://blog.se.com/br/wp-content/uploads/2017/04/Subtensao-e1491594749515.png" alt=""></p>
+</section><section>
+<p><img src="https://blog.se.com/br/wp-content/uploads/2017/04/2-3.png" alt=""></p>
+</section><section>
+<p><img src="https://blog.se.com/br/wp-content/uploads/2017/04/Ru%C3%ADdo-e1491594720213.png" alt=""></p>
+</section><section>
+<p><img src="https://blog.se.com/br/wp-content/uploads/2017/04/picos.png" alt=""></p>
+</section><section>
+<p><img src="https://blog.se.com/br/wp-content/uploads/2017/04/APAGAO-1024x652.jpg" alt=""></p>
+</section><section>
+<h1 id="como-proteger-o-computador-de-problemas-da-rede-elétrica">Como proteger o computador de problemas da rede elétrica?</h1>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="equipamentos-ligados-entre-o-computador-e-a-tomada">Equipamentos ligados entre o computador e a tomada</h1>
+<ul>
+<li>Extensão</li>
+<li>T, Benjamim</li>
+<li>Régua</li>
+<li>Filtro de Linha</li>
+<li>Estabilizador</li>
+<li>Nobreak</li>
+</ul>
+</section><section>
+<h1 id="t-benjamim">T, Benjamim</h1>
+<p><img src="https://lh3.googleusercontent.com/proxy/-rpl8jKAI-idf_3-uL6wQmbABgtFte5_E0m-OdUX_DLXosRgxPUlPTp9K2G3JA8aQpdRgxW2VZ0CyScRIQ9mbVhWqmZYtXgYXexI_q_QKx8ts3WvTVkHEuGFg_5rpQ" alt=""></p>
+</section><section>
+<h1 id="extensão-régua">Extensão, Régua</h1>
+</section><section>
+<h1 id="filtro-de-linha">Filtro de linha</h1>
+</section><section>
+<h1 id="estabilizador">Estabilizador</h1>
+</section><section>
+<h1 id="no-break">No break</h1>
+
+</section>
+</section>
+
+</div>
+      
+<div class="line top"></div>
+<div class="line bottom"></div>
+<div class="line left"></div>
+<div class="line right"></div>
+
+    </div>
+<script type="text/javascript" src=/localhost/reveal-hugo/object-assign.js></script>
+
+<a href="/localhost/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"history":true,"templates":{"grey":{"background":"#424242","transition":"convex"}}}</script>
+<script type="application/json" id="reveal-hugo-page-params">{"custom_theme":"reveal-hugo/themes/robot-lung.css","highlight_theme":"color-brewer","margin":0.2,"templates":{"hotpink":{"background":"#FF4081","class":"hotpink"}},"transition":"slide","transition_speed":"fast"}</script>
+
+<script src="/localhost/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/localhost/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/localhost/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/localhost/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/localhost/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/localhost/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+
+
+<script type="text/javascript">
+
+Reveal.addEventListener('slidechanged', function(event) {
+  console.log("🎞️ Slide is now " + event.indexh);
+});
+</script>
+
+  </body>
+</html>
